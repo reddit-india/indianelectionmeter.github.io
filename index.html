@@ -1,38 +1,24 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> India Promise Tracker </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="text-center"> India Promise Tracker </h1>
+      <p class="container"> We are kicking off Indian Election Meter. This site is inspired by a post at <a href="https://np.reddit.com/r/india/comments/3sv4zi/we_need_a_website_for_tracking_the_promises_made/">/r/india</a> comparing <a href="https://www.trudeaumetre.ca/">a canadian site</a> to indian election promise tracker scenario.  We are just getting started. If you are a programmer or a content writer, file your feature requests at <a href="https://github.com/reddit-india/indianelectionmeter.github.io">Our GitHub Repository</a>. </p>
+    </div>
+    <div id="react-app"></div>
+  </body>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <!-- Dependencies -->
+  <script src="node_modules/react/dist/react.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/jquery-knob/dist/jquery.knob.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-
+  <!-- Quick react script [Should have used JSX] -->
+  <script src="js/main.js"></script>
+</html>
