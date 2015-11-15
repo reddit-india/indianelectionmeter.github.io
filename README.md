@@ -12,7 +12,7 @@ We need both programmers and content writers. Comment on following threads to wo
 - <a href="https://github.com/reddit-india/indianelectionmeter.github.io/issues/10">Programmer</a>
 
 ### Done
-* Static site is online
+* Static site is online <a href="http://indianelectionmeter.in">here</a>
 * Slack forum is online <a href="https://indianpromisetracker.slack.com">here</a> 
 
 ### In progress 
