@@ -10,3 +10,13 @@ We are forming our core team for designing this website. Currently basic site is
 We need both programmers and content writers. Comment on following threads to work as
 - <a href="https://github.com/reddit-india/indianelectionmeter.github.io/issues/9">Content Writer</a>
 - <a href="https://github.com/reddit-india/indianelectionmeter.github.io/issues/10">Programmer</a>
+
+### Done
+* Static site is online
+* Slack forum is online <a href="https://indianpromisetracker.slack.com">here</a> 
+
+### In progress 
+* Forming Teams
+
+### Not yet started
+* Buiding main interactive site
