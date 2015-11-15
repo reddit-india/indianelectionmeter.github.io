@@ -13,7 +13,7 @@ We need both programmers and content writers. Comment on following threads to wo
 
 ### Done
 * Static site is online <a href="http://indianelectionmeter.in">here</a>
-* Slack forum is online <a href="https://indianpromisetracker.slack.com">here</a> 
+* Join slack forum <a href="https://iptuserbot.herokuapp.com/">here</a> 
 
 ### In progress 
 * Forming Teams
