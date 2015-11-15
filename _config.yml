@@ -1,3 +1,21 @@
-name: Indian Election Meter
-markdown: redcarpet
-highlighter: pygments
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               'Indian Election Meter'
+tagline:             'Tracking Indian Election Promises'
+description:         'Running at <a href="http://indianelectionmeter.in" target="_blank">Indian Election Meter</a>'
+url:                 https://github.com/reddit-india/indianelectionmeter.github.io
+baseurl:             'http://indianelectionmeter.in'
+paginate:            5
+
+# About/contact
+author:
+  name:              '/u/valahalarama'
+  url:               https://twitter.com/electionmeter
+
+# Custom vars
+version:             1.0.0

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Indian Election Meter</title>
+ <link href="https://github.com/reddit-india/indianelectionmeter.github.iohttp://indianelectionmeter.in/atom.xml" rel="self"/>
+ <link href="https://github.com/reddit-india/indianelectionmeter.github.iohttp://indianelectionmeter.in/"/>
+ <updated>2015-11-16T03:33:53+10:00</updated>
+ <id>https://github.com/reddit-india/indianelectionmeter.github.io</id>
+ <author>
+   <name>/u/valahalarama</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Kicking off Indian Election Meter</title>
+   <link href="https://github.com/reddit-india/indianelectionmeter.github.io/welcome/start/2015/11/16/kicking-off-indian-election-meter/"/>
+   <updated>2015-11-16T11:47:21+10:00</updated>
+   <id>https://github.com/reddit-india/indianelectionmeter.github.iohttp://indianelectionmeter.in/welcome/start/2015/11/16/kicking-off-indian-election-meter</id>
+   <content type="html">&lt;p&gt;We are kicking off Indian Election Meter. This site is inspired by a post at &lt;a href=&quot;https://np.reddit.com/r/india/comments/3sv4zi/we_need_a_website_for_tracking_the_promises_made/&quot;&gt;/r/india&lt;/a&gt; comparing &lt;a href=&quot;https://www.trudeaumetre.ca/&quot;&gt;a canadian site&lt;/a&gt; to indian election promise tracker scenario.&lt;/p&gt;
+
+&lt;p&gt;We are just getting started. If you are a programmer or a content writer, file your feature requests at &lt;a href=&quot;https://github.com/reddit-india/indianelectionmeter.github.io&quot;&gt;Our GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
