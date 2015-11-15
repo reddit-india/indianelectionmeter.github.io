@@ -1,0 +1,17 @@
+{
+  "name": "india-promise-tracker",
+  "version": "1.0.0",
+  "description": "Trakcs the status of promises made by governments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bogas04",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "jquery-knob": "^1.2.11",
+    "react": "^0.14.2"
+  }
+}
