@@ -6,6 +6,7 @@ function stringifyDate (timestamp) {
   return date.getDate() + " " + months[date.getMonth()] + ", " + date.getFullYear();
 }
 
+var $modal = $('#modal');
 var Table = React.createClass({
   getInitialState: function () {
     return { keyword:  '' };
@@ -13,30 +14,40 @@ var Table = React.createClass({
   changeView: function(e) {
     this.setState({keyword: e.currentTarget.value});
   },
+  showModal: function(key) {
+    $.getJSON('1.json', function (data) {
+      //$.getJSON(key + '.json', function (data) {
+      $modal.find('.title').html("Promise #" + data.no + " " + data.title);
+      $modal.find('.category').html(data.category);
+      $modal.find('.started').html(data.started);
+      $modal.find('.started_on').html(data.started_on);
+      $modal.find('.finished').html(data.finished);
+      $modal.find('.status').html(data.status);
+      $modal.find('.comments').html(data.comments);
+      $modal.find('.links').html('<ul>' + data.links.map(d => '<li><a href="' + d.url + '" target="_blank">' + d.title + '</a></li>') + '</ul>');
+      $modal.modal();
+    });
+  },
   byKeyword: function(d) {
     return d.title.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
       d.category.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1;
-      //d.desc.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-        //(d.startDate && stringifyDate(d.startDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1) ||
-          //(d.endDate && stringifyDate(d.endDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1);
   },
   render: function() {
     return (React.createElement('div', null
       ,React.createElement('input', { className: 'form-control', onChange: this.changeView, placeholder: 'Enter search keyword' })
-      ,React.createElement('table', { className: 'table table-hover table-bordered' }
-        ,React.createElement('thead', null
-          ,React.createElement('tr', null
-            ,React.createElement('th', null, 'Promise')
-            ,React.createElement('th', null, 'Category')
-          //,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
-            //,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
-        ,React.createElement('tbody', null
-          ,this.props.data.filter(this.byKeyword).map(d => React.createElement('tr', { key : Math.random() }
-        //,React.createElement('td', null, React.createElement('a', { href: d.url }, d.title), React.createElement('p', null, d.desc))
-            ,React.createElement('td', null, React.createElement('p', null, d.title))
-            ,React.createElement('td', null, React.createElement('p', null, d.category))))))))));
-          //,d.startDate && React.createElement('td', null, stringifyDate(d.startDate))
-            //,d.endDate && React.createElement('td', null, stringifyDate(d.endDate))))))));
+      ,React.createElement('div', { className: 'table-component' }
+        ,React.createElement('table', { className: 'table table-hover table-bordered' }
+          ,React.createElement('thead', null
+            ,React.createElement('tr', null
+              ,React.createElement('th', null, '#')
+              ,React.createElement('th', null, 'Promise')
+              ,React.createElement('th', null, 'Category')
+          ,React.createElement('tbody', null
+            ,this.props.data.filter(this.byKeyword).map(d => 
+          React.createElement('tr', { className: "pointer-row", key : d.number, onClick: this.showModal.bind(this, d.number)}
+                ,React.createElement('td', null, React.createElement('p', null, d.number))
+                ,React.createElement('td', null, React.createElement('p', null, d.title))
+                ,React.createElement('td', null, React.createElement('p', null, d.category)))))))))));
   }
 });
 
