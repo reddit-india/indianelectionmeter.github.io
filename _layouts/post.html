@@ -4,9 +4,14 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+
   <span class="post-date">{{ page.date | date_to_string }}</span>
+  <div class="fb-like" data-href="{{ site.baseurl }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+  <hr>
   {{ content }}
 </div>
+
+
 
 <div class="related">
   <h2>Related Posts</h2>
