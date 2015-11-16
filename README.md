@@ -1,6 +1,18 @@
 # India Promise Tracker
 React based Implementation of [indianelectionmeter](https://github.com/reddit-india/indianelectionmeter.github.io)
 
+# Steps to setup this project locally
+1) You need node.js/ npm installed [https://nodejs.org/en/download/package-manager/](https://nodejs.org/en/download/package-manager/)
+
+2) Install the project dependencies:
+	
+>npm install
+
+3) Run the development server:
+> gulp server
+
+This will open the site in a browser and when there is a change in the code, the browser will automatically reload and reflect the changes. 
+
 # Screenshot
 ![Screenshot](screenshots/1.png)
 

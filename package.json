@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.5",
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
     "jquery": "^2.1.4",
     "jquery-knob": "^1.2.11",
     "react": "^0.14.2"
