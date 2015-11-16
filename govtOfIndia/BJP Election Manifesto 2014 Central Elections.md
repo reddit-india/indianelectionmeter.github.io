@@ -85,4 +85,4 @@
 | 78 | Administrative Reforms to be implemented through an appropriate body under the PMO. | Institutional Reforms ( Administration ) |
 | 79 | Setting up an effective Lokpal. | Institutional Reforms ( Administration ) |
 | 80 | The E-Gram and Vishwa Gram schemes to be launched. | Institutional Reforms ( Infrastructure ) |
-| 81 | Doubling the number of courts and judges in the subordinate judiciary and extend fast track courts to all layers of the judiciary. | Institutional Reforms ( Administration )"}
+| 81 | Doubling the number of courts and judges in the subordinate judiciary and extend fast track courts to all layers of the judiciary. | Institutional Reforms ( Administration )"|
