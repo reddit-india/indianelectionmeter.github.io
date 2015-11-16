@@ -54,6 +54,15 @@ var Knob = React.createClass({
   }
 });
 
+//var GovtChooser = React.createClass({
+//getInitialState : function () {
+//return { govts: [{ constituency: 'Central', by: 'BJP'}, { constituency: 'Delhi', by: 'AAP'}]};
+//},
+//render: function () {
+//return React.createElement();
+//}
+//});
+
 $.getJSON('data.json', function (data) {
   React.render(
     React.createElement('div', { className: 'container-fluid' }
@@ -62,7 +71,7 @@ $.getJSON('data.json', function (data) {
    ,React.createElement(Knob, { text: 'Total Promises', min: 0, max: data.reduce((v, d) => v += d.data.length, 0), value: data.reduce((v, d) => v += d.data.length, 0)})
    ,React.createElement(Knob, { text: 'Promises in progress', min: 0, max: data.reduce((v, d) => v += d.data.length, 0), value: data[1].data.length })
    ,data.map(d => React.createElement('div', { className: 'col-md-' + 12/data.length }
-     ,React.createElement('h1', null, d.name)
+     ,React.createElement('h3', { className: 'text-uppercase text-center' }, d.name)
      ,React.createElement(Table, { data: d.data }))))),document.getElementById('react-app'));
 
    $('.knob').knob();
