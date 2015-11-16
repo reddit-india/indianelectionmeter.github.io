@@ -13,9 +13,38 @@
     </div>
 
     <div id="react-app"></div>
-  </body>
 
-  <!-- Dependencies -->
+    <div class="modal fade" id="modal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="title"></h4>
+          </div>
+          <div class="modal-body container-fluid">
+            <div class="col-md-4">
+              <dl class="">
+                <dt>Category</dt><dd class="category"></dd>
+                <dt>Started</dt><dd class="started"></dd>
+                <dt>Started On</dt><dd class="started_on"></dd>
+                <dt>Finished</dt><dd class="finished"></dd>
+                <dt>Links</dt><dd class="links"></dd>
+              </dl>
+            </div>
+            <div class="col-md-8">
+              <h4>Status</h4>
+              <p class="status"></p>
+              <h4>Comments</h4>
+              <p class="comments"></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
   <script src="node_modules/react/dist/react.min.js"></script>
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/jquery-knob/dist/jquery.knob.min.js"></script>

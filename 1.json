@@ -1,0 +1,13 @@
+{ "no": 1,
+  "title": "Building 100 new cities, enabled with the latest in technology and infrastructure.",
+  "category": "Building India    Infrastructure",
+  "started": true, 
+  "started_on": "April 29, 2015",
+  "finished": false,
+  "status": "Stage-1 is completed by selecting 98 cities. Stage-2 is in progress in which state/UT will submit project proposals. Last date to submit proposal is Dec 15, 2015.",
+  "comments": "SCPs(Smart City Proposals) will be evaluated by a Committee involving a panel of national and international experts, organizations and institutions. The winners of the first round of Challenge will be announced by MoUD. Thereafter, while the winning cities start taking action on making their city smart, those who do not get selected will start work on improving their SCPs for consideration in the second round. Depending on the nature of the SCPs and outcomes of the first round of the Challenge, the MoUD may decide to provide handholding assistance to the potential Smart Cities to upgrade their proposals before starting the second round.",
+  "links": [{
+    "title": "Official Site",
+    "url": "http://smartcities.gov.in/"
+  }]
+}
