@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               'Indian Election Meter'
 tagline:             'Tracking Indian Election Promises'
 description:         'Running at <a href="http://indianelectionmeter.in" target="_blank">Indian Election Meter</a>'
-url:                 https://github.com/reddit-india/indianelectionmeter.github.io
+url:                 'http://indianelectionmeter.in'
 baseurl:             'http://indianelectionmeter.in'
 paginate:            5
 
