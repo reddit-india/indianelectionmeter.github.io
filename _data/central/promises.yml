@@ -1,323 +1,323 @@
--	no: 1
-	title: 'Building 100 new cities, enabled with the latest in technology and infrastructure.'
-	category: 'Building India ( Infrastructure )'
-
--	no: 2
-	title: 'Developing 100 most backward districts of the country to bring them at par with other districts through prioritized and integrated development'
-	category: 'Building India ( Infrastructure )'
-
--	no: 3
-	title: 'Ensuring Shelter to everybody equipped with electricity, water toilets and access'
-	category: 'Building India ( Infrastructure )'
-
--	no: 4
-	title: 'A full-fledged programme for "Rural Rejuvenation" to be launched and through the idea of Rurban, urban amenities to be provided for rural areas, while retaining the soul of the village.'
-	category: 'Building India ( Infrastructure )'
-
--	no: 5
-	title: 'Formulating a responsible and comprehensive National Energy Policy'
-	category: 'Building India ( Energy )'
-
--	no: 6
-	title: 'Setting up Gas Grids to make gas available to households and industry'
-	category: 'Building India ( Energy )'
-
--	no: 7
-	title: 'Setting up a National Optical-Fibre Network up to the village level; and Wi-Fi zones in public areas.'
-	category: 'Building India ( Internet and Telecommunications )'
-
--	no: 8
-	title: 'Launching Diamond Quadilateral Project of High Speed Train Network'
-	category: 'Building India ( Railways )'
-
--	no: 9
-	title: 'Setting up Agri Rail Network, Tourist Rail including Pilgrimage Rail networks and Strategic new Rail Networks.'
-	category: 'Building India ( Railways )'
-
--	no: 10
-	title: 'Launching a massive Low cost Housing programme to ensure that every family will have a pucca house of its own by 75th anniversary of  independent India.'
-	category: 'Building India ( Infrastructure )'
-
--	no: 11
-	title: 'Strict measures and special Courts to stop hoarding and black marketing'
-	category: 'Checking Price Rise ( Economy )'
-
--	no: 12
-	title: 'Setting up a Price Stabilisation Fund'
-	category: 'Checking Price Rise ( Economy )'
-
--	no: 13
-	title: 'Unbundle FCI (Food Corporation of India) operations into procurement, storage and distribution for greater efficiency.'
-	category: 'Checking Price Rise ( Economy )'
-
--	no: 14
-	title: 'Evolve a single "National Agriculture Market".'
-	category: 'Checking Price Rise ( Economy)'
-
--	no: 15
-	title: 'Establish a system, which eliminates the scope for corruption'
-	category: 'Fighting Corruption ( Corruption )'
-
--	no: 16
-	title: 'Technology enabled e-Governance for minimizing the discretion in the citizen-government interface'
-	category: 'Fighting Corruption ( Corruption )'
-
--	no: 17
-	title: 'System-based, policy-driven governance to Make Governance Transparent'
-	category: 'Fighting Corruption ( Corruption )'
-
--	no: 18
-	title: 'Simplification of the processes and procedures at all levels bestowing faith in the citizens, institutions and establishments'
-	category: 'Fighting Corruption ( Corruption )'
-
--	no: 19
-	title: '"Strategically developing Labour-intensive sectors like textile, infrastructure, housing and Tourism."'
-	category: 'Employment and Entrepreneurship ( Economy )'
-
--	no: 20
-	title: 'Strengthening the traditional employment bases of agriculture and allied industries, and retail through modernization.'
-	category: 'Employment and Entrepreneurship ( Economy )'
-
--	no: 21
-	title: 'Transform Employment Exchanges into Career Centres'
-	category: 'Employment and Entrepreneurship ( Economy )'
-
--	no: 22
-	title: 'Committed to 33% reservation in parliamentary and state assemblies through a constitutional amendment.'
-	category: 'Women -	The Nation Builder ( Women Empowerment )'
-
--	no: 23
-	title: 'Launching a national campaign for saving the girl child and educating her -	Beti Bachao -	Beti Padhao.'
-	category: 'Women -	The Nation Builder ( Women Empowerment )'
-
--	no: 24
-	title: 'Setting up dedicated Women ITIs, Women wings in other ITIs.'
-	category: 'Women -	The Nation Builder ( Women Empowerment )'
-
--	no: 25
-	title: 'Acid Attack victims welfare fund to take care of the medical costs related to treatment and cosmetic reconstructive surgeries of such victims.'
-	category: 'Women -	The Nation Builder ( Women Empowerment )'
-
--	no: 26
-	title: 'Make police stations women friendly, and increase the number of women in police at different levels.'
-	category: 'Women -	The Nation Builder ( Women Empowerment )'
-
--	no: 27
-	title: 'Committed to bridge the gap, following the principles of Samajik Nyay (social justice) and Samajik Samrasata (social harmony)'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 28
-	title: 'Committed to the eradication of untouchability at all levels'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 29
-	title: 'A high priority for SC, ST, OBCs and other weaker sections would be to create an ecosystem for education and entrepreneurship.'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 30
-	title: 'Ensuring that the funds allocated for schemes and programmes for SC, ST, OBCs and other weaker sections are utilized properly'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 31
-	title: 'A mission mode project would be made for housing, education, health and skills development'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 32
-	title: 'Setting up the entire education network for tribal and providing them housing, water, health facilities and road and energy connectivity'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 33
-	title: 'Ensure that the tribal land is not alienated'
-	category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
-
--	no: 34
-	title: 'National Madrasa modernization programme would be initiated to 4 strengthen and modernize minority educational systems and institutions.'
-	category: 'Minorities -	Equal Opportunity ( Social Justice )'
-
--	no: 35
-	title: 'Augment their traditional artisanship and entrepreneurial skill, which are a backbone of our cottage and small-scale industry.'
-	category: 'Minorities -	Equal Opportunity ( Social Justice )'
-
--	no: 36
-	title: 'Ensure a peaceful and secure environment, where there is no place for either the perpetrators or exploiters of fear.'
-	category: 'Minorities -	Equal Opportunity ( Social Justice )'
-
--	no: 37
-	title: 'Ensuring proper utilisation of natural resources of North East India and developing this region at par with Western region and empowering the DONER ministry'
-	category: 'Greater attention to border areas ( Defence )'
-
--	no: 38
-	title: 'Ensuring return of Kashmiri pandits to Jammu Kashmir and establishing Good Governance in the State while abrogating article 370'
-	category: 'Greater attention to border areas ( Defence )'
-
--	no: 39
-	title: 'Providing Educational scholarships and educational facilities, Medical insurance and quality healthcare services, Middle-income housing and efficient public transport systems.'
-	category: 'Neo-Middle Class -	Meet their Aspirations ( Economy )'
-
--	no: 40
-	title: 'Revive the anti-terror mechanism, strengthen the role of NIA and put a system in place for swift and fair trial of terror related cases'
-	category: 'Zero Tolerance on Terrorism ( Defence )'
-
--	no: 41
-	title: 'Reform the National Security Council to make it the hub of all sectorrelated assessments. It will be accountable for real-time intelligence dissemination.'
-	category: 'Zero Tolerance on Terrorism ( Defence )'
-
--	no: 42
-	title: 'Completely revamp the intelligence gathering system by modernizing the intelligence department.'
-	category: 'Zero Tolerance on Terrorism ( Defence )'
-
--	no: 43
-	title: 'Provide financial support, exploring ideas like additional tax benefits and higher interest rates.'
-	category: 'Senior Citizens ( Social Justice )'
-
--	no: 44
-	title: 'Harnessing their experience in the National Interest'
-	category: 'Senior Citizens ( Social Justice )'
-
--	no: 45
-	title: 'Enacting the "Rights of the Persons with Disabilities bill" (RPWD).'
-	category: 'Specially Abled ( Social Justice )'
-
--	no: 46
-	title: 'Identifying each and every special needs person across the country -	establishing a web based disability registration system.'
-	category: 'Specially Abled ( Social Justice )'
-
--	no: 47
-	title: 'Setting up the National Youth Advisory Council and launching a programme, "Youth for Development".'
-	category: 'Youth -	Making India Unstoppable ( Youth )'
-
--	no: 48
-	title: 'Nation-wide "district level incubation and accelerator programme" for encouraging innovation and entrepreneurship.'
-	category: 'Youth -	Making India Unstoppable ( Youth )'
-
--	no: 49
-	title: 'Launching a "National Sports Talent Search System" to promote sports among youth.'
-	category: 'Youth -	Making India Unstoppable ( Youth )'
-
--	no: 50
-	title: 'Health Assurance to all Indians and to reduce the out of pocket spending 5 on health care'
-	category: 'Health Services -	Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
-
--	no: 51
-	title: 'New Health Policy and National Health Assurance Mission.'
-	category: 'Health Services -	Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
-
--	no: 52
-	title: 'Utilize the ubiquitous platform of mobile phones for healthcare delivery and set up the National e-Health Authority'
-	category: 'Health Services -	Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
-
--	no: 53
-	title: 'Set up an AIIMS like institute in every state.'
-	category: 'Health Services -	Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
-
--	no: 54
-	title: 'Ensuring a "Swachh Bharat" by Gandhijis 150th birth anniversary in 2019'
-	category: 'Health Services -	Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
-
--	no: 55
-	title: 'Providing a non-adversarial and conducive tax environment and rationalized and simplified the tax regime.'
-	category: 'Simplified Tax Regime ( Economy )'
-
--	no: 56
-	title: 'Ensuring a minimum of 50% profits over the cost of production for the farmers.'
-	category: 'Agriculture -	Productive, Scientific and Rewarding ( Agriculture )'
-
--	no: 57
-	title: 'Regional Kisan TV Channel, reforming APMC Act, farm insurance to be implemented.'
-	category: 'Agriculture -	Productive, Scientific and Rewarding ( Agriculture )'
-
--	no: 58
-	title: 'Adopting a "National Land Use Policy".'
-	category: 'Agriculture -	Productive, Scientific and Rewarding ( Agriculture )'
-
--	no: 59
-	title: 'Ensure that a conducive, enabling environment is created making "doing business" in India easy.'
-	category: 'Industry -	Modern, Competitive and Caring ( Industry )'
-
--	no: 60
-	title: 'Ensuring logistics infrastructure, including stable power.'
-	category: 'Industry -	Modern, Competitive and Caring ( Industry )'
-
--	no: 61
-	title: 'Barring FDI in multi-brand retail sector'
-	category: 'Industry -	Modern, Competitive and Caring ( Industry )'
-
--	no: 62
-	title: '"Reviewing and reviving MSME sector and enabling it with better access to formal credit and technology for modernization."'
-	category: 'Industry -	Modern, Competitive and Caring ( Industry )'
-
--	no: 63
-	title: 'All weather road connectivity to villages'
-	category: 'For Rural Areas ( Infrastructure )'
-
--	no: 64
-	title: '"Launching the "Pradhan Mantri Gram Sinchayee Yojana" with a motto of "har khet ko paani".'
-	category: 'For Rural Areas ( Infrastructure )'
-
--	no: 65
-	title: '"Issuing identity cards, dedicated Workers Bank, Pension and Health Insurance safety nets for unorganized sector labourers."'
-	category: 'For Unorganized Sector ( Social Justice )'
-
--	no: 66
-	title: '"Schemes will be drawn for skills upgradation and enhancement of business opportunities for artisans like smiths, weavers, carpenters, hairdressers, shoe-smiths, and potters "'
-	category: 'Weavers and Artisans ( Social Justice )'
-
--	no: 67
-	title: 'Appoint a Veterans Commission to address the grievances of veterans.'
-	category: 'Ex-Servicemen ( Defence )'
-
--	no: 68
-	title: '"Launching "National Mission on Himalayas", an inter-governmental, partnership programme, to coordinate policy making and capacity building across states and sectors."'
-	category: 'The Himalayas ( Environment )'
-
--	no: 69
-	title: 'Creating a Himalayan Sustainability Fund.'
-	category: 'The Himalayas ( Environment )'
-
--	no: 70
-	title: 'Creating a Central University dedicated to the Himalayan Technology'
-	category: 'The Himalayas ( Environment )'
-
--	no: 71
-	title: '"A mission mode project to create 50 tourist circuits built around themes like, Archaeological and Heritage, Cultural and Spiritual, Himalayan, Desert, Coastal and Medicine."'
-	category: 'Other noteworthy Initiatives ( Tourism )'
-
--	no: 72
-	title: 'Launch a National Multi-skill Mission.'
-	category: 'Other noteworthy Initiatives ( Human Resource Development )'
-
--	no: 73
-	title: 'Population stabilization would be a major thrust area and would be pursued as a mission mode program.'
-	category: 'Other noteworthy Initiatives ( Social Justice )'
-
--	no: 74
-	title: '"Exploring all possibilities within the framework of the constitution to facilitate the construction of the Ram Temple in Ayodhya."'
-	category: 'Protecting Culture and Heritage ( Culture )'
-
--	no: 75
-	title: '"Strategic importance of Ram-Setu due to vast thorium deposits will be taken into consideration while taking any decision on Sethu-Samudram Channel project.'
-	category: 'Protecting Culture and Heritage ( Culture )'
-
--	no: 76
-	title: 'Cow and its progeny to be protected and promoted'
-	category: 'Protecting Culture and Heritage ( Culture )'
-
--	no: 77
-	title: '"Uniform Civil Code by drawing upon the best traditions and harmonizing them with the modern times."'
-	category: 'Protecting Culture and Heritage ( Culture )'
-
--	no: 78
-	title: '"Administrative Reforms to be implemented through an appropriate body under the PMO."'
-	category: 'Institutional Reforms ( Administration )'
-
--	no: 79
-	title: 'Setting up an effective Lokpal.'
-	category: 'Institutional Reforms ( Administration )'
-
--	no: 80
-	title: 'The E-Gram and Vishwa Gram schemes to be launched.'
-	category: 'Institutional Reforms ( Infrastructure )'
-
--	no: 81
-	title: '"Doubling the number of courts and judges in the subordinate judiciary and extend fast track courts to all layers of the judiciary."'
-	category: 'Institutional Reforms ( Administration )'
+- no: 1
+  title: 'Building 100 new cities, enabled with the latest in technology and infrastructure.'
+  category: 'Building India ( Infrastructure )'
+
+- no: 2
+  title: 'Developing 100 most backward districts of the country to bring them at par with other districts through prioritized and integrated development'
+  category: 'Building India ( Infrastructure )'
+
+- no: 3
+  title: 'Ensuring Shelter to everybody equipped with electricity, water toilets and access'
+  category: 'Building India ( Infrastructure )'
+
+- no: 4
+  title: 'A full-fledged programme for "Rural Rejuvenation" to be launched and through the idea of Rurban, urban amenities to be provided for rural areas, while retaining the soul of the village.'
+  category: 'Building India ( Infrastructure )'
+
+- no: 5
+  title: 'Formulating a responsible and comprehensive National Energy Policy'
+  category: 'Building India ( Energy )'
+
+- no: 6
+  title: 'Setting up Gas Grids to make gas available to households and industry'
+  category: 'Building India ( Energy )'
+
+- no: 7
+  title: 'Setting up a National Optical-Fibre Network up to the village level; and Wi-Fi zones in public areas.'
+  category: 'Building India ( Internet and Telecommunications )'
+
+- no: 8
+  title: 'Launching Diamond Quadilateral Project of High Speed Train Network'
+  category: 'Building India ( Railways )'
+
+- no: 9
+  title: 'Setting up Agri Rail Network, Tourist Rail including Pilgrimage Rail networks and Strategic new Rail Networks.'
+  category: 'Building India ( Railways )'
+
+- no: 10
+  title: 'Launching a massive Low cost Housing programme to ensure that every family will have a pucca house of its own by 75th anniversary of  independent India.'
+  category: 'Building India ( Infrastructure )'
+
+- no: 11
+  title: 'Strict measures and special Courts to stop hoarding and black marketing'
+  category: 'Checking Price Rise ( Economy )'
+
+- no: 12
+  title: 'Setting up a Price Stabilisation Fund'
+  category: 'Checking Price Rise ( Economy )'
+
+- no: 13
+  title: 'Unbundle FCI (Food Corporation of India) operations into procurement, storage and distribution for greater efficiency.'
+  category: 'Checking Price Rise ( Economy )'
+
+- no: 14
+  title: 'Evolve a single "National Agriculture Market".'
+  category: 'Checking Price Rise ( Economy)'
+
+- no: 15
+  title: 'Establish a system, which eliminates the scope for corruption'
+  category: 'Fighting Corruption ( Corruption )'
+
+- no: 16
+  title: 'Technology enabled e-Governance for minimizing the discretion in the citizen-government interface'
+  category: 'Fighting Corruption ( Corruption )'
+
+- no: 17
+  title: 'System-based, policy-driven governance to Make Governance Transparent'
+  category: 'Fighting Corruption ( Corruption )'
+
+- no: 18
+  title: 'Simplification of the processes and procedures at all levels bestowing faith in the citizens, institutions and establishments'
+  category: 'Fighting Corruption ( Corruption )'
+
+- no: 19
+  title: '"Strategically developing Labour-intensive sectors like textile, infrastructure, housing and Tourism."'
+  category: 'Employment and Entrepreneurship ( Economy )'
+
+- no: 20
+  title: 'Strengthening the traditional employment bases of agriculture and allied industries, and retail through modernization.'
+  category: 'Employment and Entrepreneurship ( Economy )'
+
+- no: 21
+  title: 'Transform Employment Exchanges into Career Centres'
+  category: 'Employment and Entrepreneurship ( Economy )'
+
+- no: 22
+  title: 'Committed to 33% reservation in parliamentary and state assemblies through a constitutional amendment.'
+  category: 'Women - The Nation Builder ( Women Empowerment )'
+
+- no: 23
+  title: 'Launching a national campaign for saving the girl child and educating her - Beti Bachao - Beti Padhao.'
+  category: 'Women - The Nation Builder ( Women Empowerment )'
+
+- no: 24
+  title: 'Setting up dedicated Women ITIs, Women wings in other ITIs.'
+  category: 'Women - The Nation Builder ( Women Empowerment )'
+
+- no: 25
+  title: 'Acid Attack victims welfare fund to take care of the medical costs related to treatment and cosmetic reconstructive surgeries of such victims.'
+  category: 'Women - The Nation Builder ( Women Empowerment )'
+
+- no: 26
+  title: 'Make police stations women friendly, and increase the number of women in police at different levels.'
+  category: 'Women - The Nation Builder ( Women Empowerment )'
+
+- no: 27
+  title: 'Committed to bridge the gap, following the principles of Samajik Nyay (social justice) and Samajik Samrasata (social harmony)'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 28
+  title: 'Committed to the eradication of untouchability at all levels'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 29
+  title: 'A high priority for SC, ST, OBCs and other weaker sections would be to create an ecosystem for education and entrepreneurship.'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 30
+  title: 'Ensuring that the funds allocated for schemes and programmes for SC, ST, OBCs and other weaker sections are utilized properly'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 31
+  title: 'A mission mode project would be made for housing, education, health and skills development'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 32
+  title: 'Setting up the entire education network for tribal and providing them housing, water, health facilities and road and energy connectivity'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 33
+  title: 'Ensure that the tribal land is not alienated'
+  category: 'SCs, STs, OBCs and Other Weaker Sections ( Social Justice )'
+
+- no: 34
+  title: 'National Madrasa modernization programme would be initiated to 4 strengthen and modernize minority educational systems and institutions.'
+  category: 'Minorities - Equal Opportunity ( Social Justice )'
+
+- no: 35
+  title: 'Augment their traditional artisanship and entrepreneurial skill, which are a backbone of our cottage and small-scale industry.'
+  category: 'Minorities - Equal Opportunity ( Social Justice )'
+
+- no: 36
+  title: 'Ensure a peaceful and secure environment, where there is no place for either the perpetrators or exploiters of fear.'
+  category: 'Minorities - Equal Opportunity ( Social Justice )'
+
+- no: 37
+  title: 'Ensuring proper utilisation of natural resources of North East India and developing this region at par with Western region and empowering the DONER ministry'
+  category: 'Greater attention to border areas ( Defence )'
+
+- no: 38
+  title: 'Ensuring return of Kashmiri pandits to Jammu Kashmir and establishing Good Governance in the State while abrogating article 370'
+  category: 'Greater attention to border areas ( Defence )'
+
+- no: 39
+  title: 'Providing Educational scholarships and educational facilities, Medical insurance and quality healthcare services, Middle-income housing and efficient public transport systems.'
+  category: 'Neo-Middle Class - Meet their Aspirations ( Economy )'
+
+- no: 40
+  title: 'Revive the anti-terror mechanism, strengthen the role of NIA and put a system in place for swift and fair trial of terror related cases'
+  category: 'Zero Tolerance on Terrorism ( Defence )'
+
+- no: 41
+  title: 'Reform the National Security Council to make it the hub of all sectorrelated assessments. It will be accountable for real-time intelligence dissemination.'
+  category: 'Zero Tolerance on Terrorism ( Defence )'
+
+- no: 42
+  title: 'Completely revamp the intelligence gathering system by modernizing the intelligence department.'
+  category: 'Zero Tolerance on Terrorism ( Defence )'
+
+- no: 43
+  title: 'Provide financial support, exploring ideas like additional tax benefits and higher interest rates.'
+  category: 'Senior Citizens ( Social Justice )'
+
+- no: 44
+  title: 'Harnessing their experience in the National Interest'
+  category: 'Senior Citizens ( Social Justice )'
+
+- no: 45
+  title: 'Enacting the "Rights of the Persons with Disabilities bill" (RPWD).'
+  category: 'Specially Abled ( Social Justice )'
+
+- no: 46
+  title: 'Identifying each and every special needs person across the country - establishing a web based disability registration system.'
+  category: 'Specially Abled ( Social Justice )'
+
+- no: 47
+  title: 'Setting up the National Youth Advisory Council and launching a programme, "Youth for Development".'
+  category: 'Youth - Making India Unstoppable ( Youth )'
+
+- no: 48
+  title: 'Nation-wide "district level incubation and accelerator programme" for encouraging innovation and entrepreneurship.'
+  category: 'Youth - Making India Unstoppable ( Youth )'
+
+- no: 49
+  title: 'Launching a "National Sports Talent Search System" to promote sports among youth.'
+  category: 'Youth - Making India Unstoppable ( Youth )'
+
+- no: 50
+  title: 'Health Assurance to all Indians and to reduce the out of pocket spending 5 on health care'
+  category: 'Health Services - Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
+
+- no: 51
+  title: 'New Health Policy and National Health Assurance Mission.'
+  category: 'Health Services - Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
+
+- no: 52
+  title: 'Utilize the ubiquitous platform of mobile phones for healthcare delivery and set up the National e-Health Authority'
+  category: 'Health Services - Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
+
+- no: 53
+  title: 'Set up an AIIMS like institute in every state.'
+  category: 'Health Services - Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
+
+- no: 54
+  title: 'Ensuring a "Swachh Bharat" by Gandhijis 150th birth anniversary in 2019'
+  category: 'Health Services - Increase the Access, Improve the Quality, Lower the Cost ( Healthcare )'
+
+- no: 55
+  title: 'Providing a non-adversarial and conducive tax environment and rationalized and simplified the tax regime.'
+  category: 'Simplified Tax Regime ( Economy )'
+
+- no: 56
+  title: 'Ensuring a minimum of 50% profits over the cost of production for the farmers.'
+  category: 'Agriculture - Productive, Scientific and Rewarding ( Agriculture )'
+
+- no: 57
+  title: 'Regional Kisan TV Channel, reforming APMC Act, farm insurance to be implemented.'
+  category: 'Agriculture - Productive, Scientific and Rewarding ( Agriculture )'
+
+- no: 58
+  title: 'Adopting a "National Land Use Policy".'
+  category: 'Agriculture - Productive, Scientific and Rewarding ( Agriculture )'
+
+- no: 59
+  title: 'Ensure that a conducive, enabling environment is created making "doing business" in India easy.'
+  category: 'Industry - Modern, Competitive and Caring ( Industry )'
+
+- no: 60
+  title: 'Ensuring logistics infrastructure, including stable power.'
+  category: 'Industry - Modern, Competitive and Caring ( Industry )'
+
+- no: 61
+  title: 'Barring FDI in multi-brand retail sector'
+  category: 'Industry - Modern, Competitive and Caring ( Industry )'
+
+- no: 62
+  title: '"Reviewing and reviving MSME sector and enabling it with better access to formal credit and technology for modernization."'
+  category: 'Industry - Modern, Competitive and Caring ( Industry )'
+
+- no: 63
+  title: 'All weather road connectivity to villages'
+  category: 'For Rural Areas ( Infrastructure )'
+
+- no: 64
+  title: '"Launching the "Pradhan Mantri Gram Sinchayee Yojana" with a motto of "har khet ko paani".'
+  category: 'For Rural Areas ( Infrastructure )'
+
+- no: 65
+  title: '"Issuing identity cards, dedicated Workers Bank, Pension and Health Insurance safety nets for unorganized sector labourers."'
+  category: 'For Unorganized Sector ( Social Justice )'
+
+- no: 66
+  title: '"Schemes will be drawn for skills upgradation and enhancement of business opportunities for artisans like smiths, weavers, carpenters, hairdressers, shoe-smiths, and potters "'
+  category: 'Weavers and Artisans ( Social Justice )'
+
+- no: 67
+  title: 'Appoint a Veterans Commission to address the grievances of veterans.'
+  category: 'Ex-Servicemen ( Defence )'
+
+- no: 68
+  title: '"Launching "National Mission on Himalayas", an inter-governmental, partnership programme, to coordinate policy making and capacity building across states and sectors."'
+  category: 'The Himalayas ( Environment )'
+
+- no: 69
+  title: 'Creating a Himalayan Sustainability Fund.'
+  category: 'The Himalayas ( Environment )'
+
+- no: 70
+  title: 'Creating a Central University dedicated to the Himalayan Technology'
+  category: 'The Himalayas ( Environment )'
+
+- no: 71
+  title: '"A mission mode project to create 50 tourist circuits built around themes like, Archaeological and Heritage, Cultural and Spiritual, Himalayan, Desert, Coastal and Medicine."'
+  category: 'Other noteworthy Initiatives ( Tourism )'
+
+- no: 72
+  title: 'Launch a National Multi-skill Mission.'
+  category: 'Other noteworthy Initiatives ( Human Resource Development )'
+
+- no: 73
+  title: 'Population stabilization would be a major thrust area and would be pursued as a mission mode program.'
+  category: 'Other noteworthy Initiatives ( Social Justice )'
+
+- no: 74
+  title: '"Exploring all possibilities within the framework of the constitution to facilitate the construction of the Ram Temple in Ayodhya."'
+  category: 'Protecting Culture and Heritage ( Culture )'
+
+- no: 75
+  title: '"Strategic importance of Ram-Setu due to vast thorium deposits will be taken into consideration while taking any decision on Sethu-Samudram Channel project.'
+  category: 'Protecting Culture and Heritage ( Culture )'
+
+- no: 76
+  title: 'Cow and its progeny to be protected and promoted'
+  category: 'Protecting Culture and Heritage ( Culture )'
+
+- no: 77
+  title: '"Uniform Civil Code by drawing upon the best traditions and harmonizing them with the modern times."'
+  category: 'Protecting Culture and Heritage ( Culture )'
+
+- no: 78
+  title: '"Administrative Reforms to be implemented through an appropriate body under the PMO."'
+  category: 'Institutional Reforms ( Administration )'
+
+- no: 79
+  title: 'Setting up an effective Lokpal.'
+  category: 'Institutional Reforms ( Administration )'
+
+- no: 80
+  title: 'The E-Gram and Vishwa Gram schemes to be launched.'
+  category: 'Institutional Reforms ( Infrastructure )'
+
+- no: 81
+  title: '"Doubling the number of courts and judges in the subordinate judiciary and extend fast track courts to all layers of the judiciary."'
+  category: 'Institutional Reforms ( Administration )'
