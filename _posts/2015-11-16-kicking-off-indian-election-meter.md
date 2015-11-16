@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Kicking off Indian Election Meter"
+info: "We are kicking off Indian Election Meter. This site is inspired by a post at /r/india comparing a canadian site to indian election promise tracker scenario."
 date:   2015-11-16 01:47:21
 categories: welcome start
 ---

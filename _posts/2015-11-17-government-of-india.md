@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Government of India"
+info: "Track Bhartiya Janata Party's Election Manifesto"
 date:   2015-11-17 01:47:21
 categories: central
 ---
