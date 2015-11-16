@@ -15,9 +15,10 @@ var Table = React.createClass({
   },
   byKeyword: function(d) {
     return d.title.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-      d.desc.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-        (d.startDate && stringifyDate(d.startDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1) ||
-          (d.endDate && stringifyDate(d.endDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1);
+      d.category.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1;
+      //d.desc.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
+        //(d.startDate && stringifyDate(d.startDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1) ||
+          //(d.endDate && stringifyDate(d.endDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1);
   },
   render: function() {
     return (React.createElement('div', null
@@ -26,13 +27,16 @@ var Table = React.createClass({
         ,React.createElement('thead', null
           ,React.createElement('tr', null
             ,React.createElement('th', null, 'Promise')
-            ,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
-            ,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
+            ,React.createElement('th', null, 'Category')
+          //,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
+            //,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
         ,React.createElement('tbody', null
           ,this.props.data.filter(this.byKeyword).map(d => React.createElement('tr', { key : Math.random() }
-            ,React.createElement('td', null, React.createElement('a', { href: d.url }, d.title), React.createElement('p', null, d.desc))
-              ,d.startDate && React.createElement('td', null, stringifyDate(d.startDate))
-              ,d.endDate && React.createElement('td', null, stringifyDate(d.endDate))))))));
+        //,React.createElement('td', null, React.createElement('a', { href: d.url }, d.title), React.createElement('p', null, d.desc))
+            ,React.createElement('td', null, React.createElement('p', null, d.title))
+            ,React.createElement('td', null, React.createElement('p', null, d.category))))))))));
+          //,d.startDate && React.createElement('td', null, stringifyDate(d.startDate))
+            //,d.endDate && React.createElement('td', null, stringifyDate(d.endDate))))))));
   }
 });
 
