@@ -15,9 +15,10 @@ var Table = React.createClass({
   },
   byKeyword: function(d) {
     return d.title.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-      d.desc.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-        (d.startDate && stringifyDate(d.startDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1) ||
-          (d.endDate && stringifyDate(d.endDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1);
+      d.category.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1;
+      //d.desc.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
+        //(d.startDate && stringifyDate(d.startDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1) ||
+          //(d.endDate && stringifyDate(d.endDate).toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1);
   },
   render: function() {
     return (React.createElement('div', null
@@ -25,14 +26,17 @@ var Table = React.createClass({
       ,React.createElement('table', { className: 'table table-hover table-bordered' }
         ,React.createElement('thead', null
           ,React.createElement('tr', null
-            ,React.createElement('th', null, 'Work')
-            ,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
-            ,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
+            ,React.createElement('th', null, 'Promise')
+            ,React.createElement('th', null, 'Category')
+          //,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
+            //,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
         ,React.createElement('tbody', null
           ,this.props.data.filter(this.byKeyword).map(d => React.createElement('tr', { key : Math.random() }
-            ,React.createElement('td', null, React.createElement('a', { href: d.url }, d.title), React.createElement('p', null, d.desc))
-              ,d.startDate && React.createElement('td', null, stringifyDate(d.startDate))
-              ,d.endDate && React.createElement('td', null, stringifyDate(d.endDate))))))));
+        //,React.createElement('td', null, React.createElement('a', { href: d.url }, d.title), React.createElement('p', null, d.desc))
+            ,React.createElement('td', null, React.createElement('p', null, d.title))
+            ,React.createElement('td', null, React.createElement('p', null, d.category))))))))));
+          //,d.startDate && React.createElement('td', null, stringifyDate(d.startDate))
+            //,d.endDate && React.createElement('td', null, stringifyDate(d.endDate))))))));
   }
 });
 
@@ -54,6 +58,15 @@ var Knob = React.createClass({
   }
 });
 
+//var GovtChooser = React.createClass({
+//getInitialState : function () {
+//return { govts: [{ constituency: 'Central', by: 'BJP'}, { constituency: 'Delhi', by: 'AAP'}]};
+//},
+//render: function () {
+//return React.createElement();
+//}
+//});
+
 $.getJSON('data.json', function (data) {
   React.render(
     React.createElement('div', { className: 'container-fluid' }
@@ -62,7 +75,7 @@ $.getJSON('data.json', function (data) {
    ,React.createElement(Knob, { text: 'Total Promises', min: 0, max: data.reduce((v, d) => v += d.data.length, 0), value: data.reduce((v, d) => v += d.data.length, 0)})
    ,React.createElement(Knob, { text: 'Promises in progress', min: 0, max: data.reduce((v, d) => v += d.data.length, 0), value: data[1].data.length })
    ,data.map(d => React.createElement('div', { className: 'col-md-' + 12/data.length }
-     ,React.createElement('h1', null, d.name)
+     ,React.createElement('h3', { className: 'text-uppercase text-center' }, d.name)
      ,React.createElement(Table, { data: d.data }))))),document.getElementById('react-app'));
 
    $('.knob').knob();
