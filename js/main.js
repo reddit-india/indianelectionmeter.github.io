@@ -25,7 +25,7 @@ var Table = React.createClass({
       ,React.createElement('table', { className: 'table table-hover table-bordered' }
         ,React.createElement('thead', null
           ,React.createElement('tr', null
-            ,React.createElement('th', null, 'Work')
+            ,React.createElement('th', null, 'Promise')
             ,this.props.data[0].startDate && React.createElement('th', null, 'Start Date')
             ,this.props.data[0].endDate && React.createElement('th', null, 'End Date')))
         ,React.createElement('tbody', null
