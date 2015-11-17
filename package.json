@@ -4,7 +4,8 @@
   "description": "Trakcs the status of promises made by governments",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js/main.jsx -o js/app.js"
   },
   "author": "bogas04",
   "license": "MIT",
@@ -15,5 +16,8 @@
     "jquery": "^2.1.4",
     "jquery-knob": "^1.2.11",
     "react": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.1.18"
   }
 }
