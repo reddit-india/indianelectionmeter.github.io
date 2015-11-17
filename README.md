@@ -24,11 +24,13 @@ Currently a basic static site is operational at [indianelectionmeter.in](http://
 ### FAQ
 
 **Programmmer**
+
 Q: What technologies are using?
 A: Front-end - react. Template for content generators - meteor 
 Q: I saw indiantracker.in, why are we not using it? 
 A: We can't because The person who made it using his own framework. He does not have the appropriate documentation for it and so it might be a problem at a later stage. 
 
 **Content Writer**
+
 Q: I’m not a coder, what can I do to help now? 
 A: You can pick one of the [promises](https://docs.google.com/spreadsheets/d/1uJHLsrWgvPG-3ARHQJMoCrxnbACFq6B0Klz8SPHREuk/) we have listed or promise you find yourself and start tracking it by creating a github issue.
