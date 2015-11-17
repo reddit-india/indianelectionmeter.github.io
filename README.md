@@ -19,6 +19,6 @@ This will open the site in a browser and when there is a change in the code, the
 ![Screenshot](screenshots/1.png)
 
 # Todo
-* [ ] Use JSX
+* [x] Use JSX
 * [ ] Make use of highcharts to show graph of delivery of promises
 * ...
