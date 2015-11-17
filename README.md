@@ -11,6 +11,8 @@ React based Implementation of [indianelectionmeter](https://github.com/reddit-in
 3) Run the development server:
 > gulp server
 
+4) Use babel to transform jsx to js
+> npm run build
 This will open the site in a browser and when there is a change in the code, the browser will automatically reload and reflect the changes. 
 
 # Screenshot
