@@ -12,15 +12,15 @@ let Knob = React.createClass({
   render: function () {
     return (
       <div className='col-md-4 text-center'>
-      <h3 className='text-uppercase'> {this.props.text} </h3>
-      <input 
-      className = 'knob'
-      type = 'text'
-      data-readonly = 'true'
-      data-min = {this.props.min}
-      data-max = {this.props.max}
-      value = {this.props.value}
-      data-fgcolor = {this.props.value > this.props.max/2 ? 'green' : this.props.value > this.props.max/3 ? 'orange' : 'red'} />
+        <h3 className='text-uppercase'> {this.props.text} </h3>
+        <input 
+          className = 'knob'
+          type = 'text'
+          data-readonly = 'true'
+          data-min = {this.props.min}
+          data-max = {this.props.max}
+          value = {this.props.value}
+          data-fgcolor = {this.props.value > this.props.max/2 ? 'green' : this.props.value > this.props.max/3 ? 'orange' : 'red'} />
       </div>
     );
   }
@@ -58,21 +58,21 @@ let Table = React.createClass({
     let rows = this.props.data.filter(this.byKeyword).map(d => {
       return (
         <tr className = "pointer-row" key = {d.number} onClick = {this.showModal.bind(this, d.number)}>
-        <td> {d.number} </td>
-        <td> {d.title} </td>
-        <td> {d.category} </td>
+          <td> {d.number} </td>
+          <td> {d.title} </td>
+          <td> {d.category} </td>
         </tr>
       );
     });
     return (
       <div>
-      <input className = 'form-control' onChange = {this.changeView} placeholder = 'Enter search keyword'/>
-      <div className = 'table-component'>
-      <table className = 'table table-hover table-bordered'>
-      <thead> <tr> <th> # </th> <th> Promise </th> <th> Category </th> </tr> </thead>
-      <tbody>{rows}</tbody>
-      </table>
-      </div>
+        <input className = 'form-control' onChange = {this.changeView} placeholder = 'Enter search keyword'/>
+        <div className = 'table-component'>
+          <table className = 'table table-hover table-bordered'>
+            <thead> <tr> <th> # </th> <th> Promise </th> <th> Category </th> </tr> </thead>
+            <tbody>{rows}</tbody>
+          </table>
+        </div>
       </div>
     );
   }
@@ -84,8 +84,8 @@ let App = React.createClass({
     let sections = data.map(d => {
       return (
         <div className = 'col-md-4'>
-        <h3 className = 'text-uppercase text-center'> {d.name} </h3>
-        <Table data = {d.data}/>
+          <h3 className = 'text-uppercase text-center'> {d.name} </h3>
+          <Table data = {d.data}/>
         </div>
       );
     });
@@ -93,11 +93,11 @@ let App = React.createClass({
 
     return (
       <div className = 'container-fluid'>
-      <Knob text = 'Promises Fullfilled' min = {0} max = {totalPromisesCount} value = {data[0].data.length} />
-      <Knob text = 'Promises in Progress' min = {0} max = {totalPromisesCount} value = {data[1].data.length} />
-      <Knob text = 'Total Promises' min = {0} max = {totalPromisesCount} value = {totalPromisesCount} />
-      {sections}
-      </div>
+        <Knob text = 'Promises Fullfilled' min = {0} max = {totalPromisesCount} value = {data[0].data.length} />
+        <Knob text = 'Promises in Progress' min = {0} max = {totalPromisesCount} value = {data[1].data.length} />
+        <Knob text = 'Total Promises' min = {0} max = {totalPromisesCount} value = {totalPromisesCount} />
+        {sections}
+        </div>
     );
   }
 });
