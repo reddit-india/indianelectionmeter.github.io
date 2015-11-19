@@ -40,10 +40,13 @@ let Table = React.createClass({
     this.setState({ keyword: e.currentTarget.value });
   },
   showModal: function (key) {
-    //$.getJSON(key + '.json', function (data) {
-    $.getJSON('1.json', function (data) {
-      [['.title'], ["Promise #" + data.no + " " + data.title], ['.category'], [data.category], ['.started'], [data.started], ['.started_on'], [data.started_on], ['.finished'], [data.finished], ['.status'], [data.status], ['.comments'], [data.comments], ['.links'], ['<ul>' + data.links.map(d => '<li><a href="' + d.url + '" target="_blank">' + d.title + '</a></li>') + '</ul>']].forEach(v => $modal.find(v[0]).html(v[1]));
+    $.getJSON(key + '.json', function (data) {
+      [['.title', "Promise #" + data.no + " " + data.title], ['.category', data.category], ['.started', data.started], ['.started_on', data.started_on], ['.finished', data.finished], ['.status', data.status], ['.comments', data.comments], ['.links', '<ul>' + data.links.map(d => '<li><a href="' + d.url + '" target="_blank">' + d.title + '</a></li>') + '</ul>']].forEach(v => $modal.find(v[0]).html(v[1]));
 
+      $modal.modal();
+    }).fail(function () {
+      $modal.find('.title').html('Promise #' + key);
+      $modal.find('.status').html('Sorry, no data for this promise. Help India by contributing' + '<a href="https://github.com/reddit-india/indianelectionmeter.github.io/blob/master/CONTRIBUTING.md">here</a>.');
       $modal.modal();
     });
   },
