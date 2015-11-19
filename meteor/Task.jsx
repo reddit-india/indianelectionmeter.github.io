@@ -4,7 +4,8 @@ Task = React.createClass({
 		showPrivateButton: React.PropTypes.bool.isRequired
 	},
 	deleteThisTask(){
-		Meteor.call("removeTask", this.props.task._id);
+		alert("Create an issue to delete a promise")
+		//Meteor.call("removeTask", this.props.task._id);
 	},
 	
 	render(){
