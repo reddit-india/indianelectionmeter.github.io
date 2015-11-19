@@ -1,0 +1,22 @@
+.mainBody{
+	min-height: 500px;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.textPointer{
+	cursor: pointer;
+}
+
+.thumbnail>img{
+	
+	width: 80%;
+	height:80%;
+}
+
+.thumbnail{
+	text-align: center;
+	border: 0px;
+}
