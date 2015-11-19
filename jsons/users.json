@@ -1,1 +1,0 @@
-{"_id":"h4MbvCfyYFZc45FeA","createdAt":{"$date":"2015-11-17T15:01:00.557Z"},"services":{"password":{"bcrypt":"$2a$10$T1kaJRlRrbY2tobFFMlcr.3c1xsd6P75k9VrNp4iMSHdz4Lj/rg4u"},"resume":{"loginTokens":[{"hashedToken":"Zzx5PsuIe9W0alVR+tORnf5o/w6UfyQ+VNfiY6dFajU=","when":{"$date":"2015-11-17T15:01:00.570Z"}}]}},"username":"omkar"}
