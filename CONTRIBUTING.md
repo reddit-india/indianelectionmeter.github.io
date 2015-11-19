@@ -10,7 +10,24 @@ Our current stack consists of a react-based frontend and a meteor backend. For a
 
 #### Our current process
 
-(todo)
+You can join the #contentwriters channel on slack and can ask for @greyhound291 or @datoism to guide you. Since the data you will be contributing will be used by the devs to put online, there are a few guidelines that you will have to stick to while inputting data.
+
+#### What are the kinds of content contributing I can do?
+
+As of now, we are focusing on converting manifestos of different states into a format that can be used by the devs to upload on the site. So, once you sign up for the slack channel. you can ask @greyhound291 or @datoism for a state of your liking (if there are not to many people working on it already) or you will be assigned to a state.
+Once the manifestos are complete, we will be done with the bulk of the conversions; and then there will be a lot of promise tracking to do. That will mean lot of googling and checking up on whether the government has been keeping it promises or not. 
+
+#### What are the other kinds of contributing I can do?
+
+There are a lot of other small things you can do that will help us in big ways.
+
+*Bug Watcher:* While the website is still in development, you can play around with the website and report any bugs/security flaws you might find on the website.
+
+*Design:* If you are interested in design, you can come on over to slack and talk design with us. And that could mean anything: Layout of the site, colour scheme we are using, the logo design, heck, even the nitty gritties like the font size, or the size of the margin or code design. You have access to our github. See any redundancy? Let us know.
+
+*Spread the word:* You can talk about this project with your friends/colleagues and ask them to contribute if they seem interested. Going forward, we will be needing a lot of content contributors, and contributing can be a lot of fun if you have friends along with you.
+
+*That One Guy:* Our awesome dev community is always working. If you have any features you would like to see on this site, you can simply create an issue. We will try our best to incorporate it into the website to please you.
 
 #### Guidelines for tracking promises
 
