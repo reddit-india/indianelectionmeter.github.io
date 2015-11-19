@@ -13,7 +13,7 @@ let Knob = React.createClass({
     return (
       <div className='col-md-4 text-center'>
         <h3 className='text-uppercase'> {this.props.text} </h3>
-        <input 
+        <input
           className = 'knob'
           type = 'text'
           data-readonly = 'true'
@@ -34,25 +34,29 @@ let Table = React.createClass({
     this.setState({keyword: e.currentTarget.value});
   },
   showModal: function(key) {
-    //$.getJSON(key + '.json', function (data) {
-    $.getJSON('1.json', function (data) {
+    $.getJSON(key + '.json', function (data) {
       [
-        ['.title'], [("Promise #" + data.no + " " + data.title)],
-        ['.category'], [(data.category)],
-        ['.started'], [(data.started)],
-        ['.started_on'], [(data.started_on)],
-        ['.finished'], [(data.finished)],
-        ['.status'], [(data.status)],
-        ['.comments'], [(data.comments)],
-        ['.links'], [('<ul>' + data.links.map(d => '<li><a href="' + d.url + '" target="_blank">' + d.title + '</a></li>') + '</ul>')],
+        ['.title', ("Promise #" + data.no + " " + data.title)],
+        ['.category', (data.category)],
+        ['.started', (data.started)],
+        ['.started_on', (data.started_on)],
+        ['.finished', (data.finished)],
+        ['.status', (data.status)],
+        ['.comments', (data.comments)],
+        ['.links', ('<ul>' + data.links.map(d => '<li><a href="' + d.url + '" target="_blank">' + d.title + '</a></li>') + '</ul>')],
       ].forEach(v => $modal.find(v[0]).html(v[1]));
 
+      $modal.modal();
+    }).fail(function () {
+      $modal.find('.title').html('Promise #' + key);
+      $modal.find('.status').html('Sorry, no data for this promise. Help India by contributing ' +
+      '<a href="https://github.com/reddit-india/indianelectionmeter.github.io/blob/master/CONTRIBUTING.md">here</a>.')
       $modal.modal();
     });
   },
   byKeyword: function(d) {
     return d.title.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1 ||
-      d.category.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1;
+    d.category.toLowerCase().indexOf(this.state.keyword.toLowerCase()) > -1;
   },
   render: function() {
     let rows = this.props.data.filter(this.byKeyword).map(d => {
@@ -97,7 +101,7 @@ let App = React.createClass({
         <Knob text = 'Promises in Progress' min = {0} max = {totalPromisesCount} value = {data[1].data.length} />
         <Knob text = 'Total Promises' min = {0} max = {totalPromisesCount} value = {totalPromisesCount} />
         {sections}
-        </div>
+      </div>
     );
   }
 });
