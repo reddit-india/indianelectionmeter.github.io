@@ -15,19 +15,24 @@ Currently a basic static site is operational at [indianelectionmeter.in](http://
 
 ### Progress
 #### Done
-* Static site is online [here](http://indianelectionmeter.in).
+* Website is online [here](http://indianelectionmeter.in).
+* Code powering the site is available in meteor directory
+* Json data needed to start working is available in jsons directory, you can import it in mongodb database using mongoimport
+* All modifications on website are currently limited to moderators, you can create an issue to become moderator of particular state
 
 #### In progress 
-* Dynamic site
-* Parsing BJP manifesto
+* Tracking promises of Goverment of India
 
 ### FAQ
 
 **Programmmer**
 
 Q: What technologies are using?
+
 A: Front-end - react. Template for content generators - meteor 
+
 Q: I saw indiantracker.in, why are we not using it? 
+
 A: We can't because The person who made it using his own framework. He does not have the appropriate documentation for it and so it might be a problem at a later stage. 
 
 **Content Writer**
