@@ -11,8 +11,6 @@ We need programmers, designers and content writers. We are currently organising 
 
 We aim to discuss things on github's [issues](https://github.com/reddit-india/indianelectionmeter.github.io/issues), feel free to join the discussion!
 
-Currently a basic static site is operational at [indianelectionmeter.in](http://indianelectionmeter.in). Dynamic version coming soon.
-
 ### Progress
 #### Done
 * Website is online [here](http://indianelectionmeter.in).
