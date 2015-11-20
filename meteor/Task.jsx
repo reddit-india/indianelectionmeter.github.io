@@ -7,10 +7,21 @@ Task = React.createClass({
 		alert("Create an issue to delete a promise")
 		//Meteor.call("removeTask", this.props.task._id);
 	},
+	taskStatus(){
+		if (this.props.task.completed) {
+			return "completed";
+		}
+		else if (this.props.task.started) {
+			return "started";
+		}
+		else {
+			return "not-started";
+		}
+	},
 	
 	render(){
 		return (
-			<tr >
+			<tr className={this.taskStatus()}>
 				<td>{this.props.task.no}</td>
 				<td>
 				<span className="textPointer" onClick={this.props.showModal.bind(null, this.props.task)}>
