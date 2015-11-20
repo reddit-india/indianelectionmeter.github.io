@@ -20,3 +20,18 @@
 	text-align: center;
 	border: 0px;
 }
+
+.started{
+	color: #FFA500;
+	/*yellow*/
+}
+
+.completed{
+	color: #00C864;
+	/*green*/
+}
+
+.not-started{
+	color: #1A1A1A;
+	/*dark grey*/
+}
