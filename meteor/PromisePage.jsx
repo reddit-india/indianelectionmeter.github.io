@@ -152,7 +152,7 @@ PromisePage = React.createClass({
 		          	<div className="col-md-offset-2 col-md-8">
 		          	<hr className="body-bottom"/>
 		              	{this.data.task && this.data.currentState ? 
-	            			<DisqusThread shortname={this.data.task._id} category_id="4217438"  identifier={this.data.task._id} title={this.data.task.title} url={'"http://localhost:3000/'+this.data.currentState._id+"/"+this.data.task._id+'/"' }/> : ""
+	            			<DisqusThread shortname={this.data.task._id} category_id="4217438"  identifier={this.data.task._id} title={this.data.task.title} url={'"https://indianelectionmeter.in/'+this.data.currentState._id+"/"+this.data.task._id+'/"' }/> : ""
 	            		}
 	            	</div>
 		          </div>
