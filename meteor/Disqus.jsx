@@ -142,10 +142,12 @@ DisqusThread = React.createClass({
       }
     });
 
-    // Always set URL
+    // Always set `
     if (!props.url || !props.url.length) {
       props.url = window.location.href;
     }
+
+    console.log(props)
 
     // If Disqus has already been added, reset it
     if (typeof DISQUS !== 'undefined') {
