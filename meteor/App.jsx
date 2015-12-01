@@ -244,9 +244,7 @@ App = React.createClass({
                 { this.data.currentState ?
                   <FormModal state_id={this.data.currentState._id} categories={this.data.categories} canEdit={this.canEdit}/> : ""
                   }
-                { this.data.currentUser && this.canEdit() ?
-                  <TaskModal task={this.state.selectedTask} canEdit={this.canEdit} categories={this.data.categories}/>: ""
-                }
+               
                 </div>
 
 
