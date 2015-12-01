@@ -1,6 +1,12 @@
 Tasks = new Mongo.Collection("tasks");
 States = new Mongo.Collection("states");
+
 if (Meteor.isClient) {
+	const {Router, Route} = ReactRouter;
+	var IndexRoute = ReactRouter.IndexRoute;
+	const history = ReactRouter.history.useQueries(ReactRouter.history.createHistory)()
+
+
   // This code is executed on the client only
  	Accounts.ui.config({
     	passwordSignupFields: "USERNAME_ONLY"
@@ -10,8 +16,14 @@ if (Meteor.isClient) {
   	Meteor.subscribe("states");
 
   	Meteor.startup(function () {
-    	// Use Meteor.startup to render the component after the page is ready
-    	React.render(<App />, document.getElementById("render-target"));
+  		 ReactDOM.render((
+		    <Router history={history}>
+		      	<Route name="root" component={App} path="/" />
+	    		<Route name="promise" path="/promise/:stateId/:promiseId" component={PromisePage} />
+	    		<Route path="*" component={App}/>
+		    </Router>
+		  ),  document.getElementById("render-target"));
+
   	});
 }
 
