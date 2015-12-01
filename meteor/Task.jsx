@@ -24,11 +24,13 @@ Task = React.createClass({
 			<tr className={this.taskStatus()}>
 				<td>{this.props.task.no}</td>
 				<td>
-				<span className="textPointer" onClick={this.props.showModal.bind(null, this.props.task)}>
+				<a href={"/promise/"+this.props.task.state_id+"/"+this.props.task._id}>
+
 					 {this.props.task.title}
 					 <br/>
 					 <small>{this.props.task.category}</small>
-				</span>
+
+				</a>
 				{  this.props.currentUser && this.props.canEdit()  ?
 					<button type="button" className="close" onClick={this.deleteThisTask} aria-label="Close"><span aria-hidden="true">&times;</span></button> : ""
 

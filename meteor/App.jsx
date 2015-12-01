@@ -98,11 +98,7 @@ App = React.createClass({
       </div>
     );
   },
-  showModal(task, event){
-    this.setState({selectedTask: task});
-    var modal = $('#modal');
-    modal.modal();
-  },
+
   changePage(number, event){
     event.preventDefault()
     if(number > 0 && number <= this.data.allCount/this.state.noPerPage + 1){
@@ -126,7 +122,7 @@ App = React.createClass({
         const currentUserId = this.data.currentUser && this.data.currentUser._id;
         const showPrivateButton = task.owner === currentUserId;
 
-        return <Task canEdit={this.canEdit} showModal={this.showModal} currentUser={this.data.currentUser} key={task._id} task={task} keyword={this.state.keyword} showPrivateButton={showPrivateButton}/>;
+        return <Task canEdit={this.canEdit} currentUser={this.data.currentUser} key={task._id} task={task} keyword={this.state.keyword} showPrivateButton={showPrivateButton}/>;
       })
     },
 
@@ -248,8 +244,7 @@ App = React.createClass({
                 { this.data.currentState ?
                   <FormModal state_id={this.data.currentState._id} categories={this.data.categories} canEdit={this.canEdit}/> : ""
                   }
-
-                  <TaskModal task={this.state.selectedTask} canEdit={this.canEdit} categories={this.data.categories}/>
+               
                 </div>
 
 
